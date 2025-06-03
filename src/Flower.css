@@ -1,0 +1,25 @@
+
+.linkf{
+  text-decoration: none;
+  color: var(--main);
+  position: relative;
+}
+.linkp{
+  text-decoration: none;
+  color: var(--main);
+  position: relative;
+}
+.linkf::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 1.4px;
+  font-weight: 100;
+  left: 1px;
+  bottom: -1px;
+  background-color: black;
+  transition: transform .3s ease-in-out;
+}
+
+
