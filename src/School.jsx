@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const School = () => {
   return (
-    <div className="school">
+    <div className="school" id="School">
     <div className='schoolContainer'>
      <div className='schoolTitle'>
     <div className='leftSchool'>

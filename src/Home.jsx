@@ -106,25 +106,25 @@ const Home = () => {
 
             <div className='done' id='done'>
 
-            <Link className='navlink' to="/Home"><h4>Home</h4></Link>
+            <HashLink className='navlink' smooth to="/#Home"><h4>Home</h4></HashLink>
 
             <Link className='navlink' to="/Flowers"><h4>Flowers</h4></Link>
 
             <Link className='navlink' to="/Plants"><h4>Plants</h4></Link>
 
-            <Link className='navlink' to="/Services"><h4>Services</h4></Link>
+            <HashLink className='navlink' smooth to="/#Services"><h4>Services</h4></HashLink>
 
-            <Link className='navlink' to="/Seasons"><h4>Seasons</h4></Link>
+            <HashLink className='navlink' smooth to="/#Seasons"><h4>Seasons</h4></HashLink>
 
-            <Link className='navlink' to="/Classess"><h4>Fiore Classes</h4></Link>
+            <HashLink className='navlink' smooth to="/#Classess"><h4>Fiore Classes</h4></HashLink>
 
-            <Link className='navlink' to="/Story"><h4>Our Story</h4></Link>
+            <HashLink className='navlink' smooth to="/#Story"><h4>Our Story</h4></HashLink>
 
             {/* <Link className='navlink' to="/School"><h4>School</h4></Link> */}
 
             {/* <Link className='navlink' to="/Store"><h4>Fiore</h4></Link> */}
 
-            <Link className='navlink' to="/Blog"><h4>Blog</h4></Link>
+            <HashLink className='navlink' smooth to="/#Blog"><h4>Blog</h4></HashLink>
 
                   <MdClose className='close' onClick={navMediaoff}/>
           </div>
